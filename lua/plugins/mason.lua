@@ -5,7 +5,7 @@ return {
       ensure_installed = {
         "shellcheck",
         "pyright",
-        "ansible-language-server ansiblels",
+        "ansible-language-server",
         "ansible-lint",
         "black",
         "flake8",
