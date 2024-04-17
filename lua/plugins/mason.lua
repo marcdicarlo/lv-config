@@ -4,7 +4,6 @@ return {
     opts = {
       ensure_installed = {
         "shellcheck",
-        "pyright",
         "ansible-language-server",
         "ansible-lint",
         "black",
@@ -22,6 +21,8 @@ return {
         "terraform-ls",
         "typescript-language-server",
         "yaml-language-server",
+        "html-lsp",
+        "htmx-lsp",
       },
     },
   },

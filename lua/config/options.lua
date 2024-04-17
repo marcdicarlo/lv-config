@@ -18,3 +18,8 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
+
+-- set extra characters to be considered as a word
+opt.iskeyword:append("-")
+opt.iskeyword:append("_")
+opt.iskeyword:append(".")
